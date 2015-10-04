@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3466283D1BC1CA2E00EB4E82"
-               BuildableName = "SBCoreDataStack-iOS.framework"
-               BlueprintName = "SBCoreDataStack-iOS"
+               BuildableName = "SBCoreDataStackiOS.framework"
+               BlueprintName = "SBCoreDataStackiOS"
                ReferencedContainer = "container:SBCoreDataStack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3466283D1BC1CA2E00EB4E82"
-            BuildableName = "SBCoreDataStack-iOS.framework"
-            BlueprintName = "SBCoreDataStack-iOS"
+            BuildableName = "SBCoreDataStackiOS.framework"
+            BlueprintName = "SBCoreDataStackiOS"
             ReferencedContainer = "container:SBCoreDataStack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3466283D1BC1CA2E00EB4E82"
-            BuildableName = "SBCoreDataStack-iOS.framework"
-            BlueprintName = "SBCoreDataStack-iOS"
+            BuildableName = "SBCoreDataStackiOS.framework"
+            BlueprintName = "SBCoreDataStackiOS"
             ReferencedContainer = "container:SBCoreDataStack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

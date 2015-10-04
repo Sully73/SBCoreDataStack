@@ -16,8 +16,8 @@
 		346628381BC1C9FA00EB4E82 /* NSFileManger+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346628371BC1C9FA00EB4E82 /* NSFileManger+Helpers.swift */; settings = {ASSET_TAGS = (); }; };
 		346628411BC1CA2E00EB4E82 /* SBCoreDataStack-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 346628401BC1CA2E00EB4E82 /* SBCoreDataStack-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3466284E1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 3466284D1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		346628521BC1CA4200EB4E82 /* SBCoreDataStack-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3466284B1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.framework */; };
-		346628531BC1CA4200EB4E82 /* SBCoreDataStack-OSX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3466284B1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		346628521BC1CA4200EB4E82 /* SBCoreDataStackOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3466284B1BC1CA4100EB4E82 /* SBCoreDataStackOSX.framework */; };
+		346628531BC1CA4200EB4E82 /* SBCoreDataStackOSX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3466284B1BC1CA4100EB4E82 /* SBCoreDataStackOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		346628581BC1CA4F00EB4E82 /* NSFileManger+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346628371BC1C9FA00EB4E82 /* NSFileManger+Helpers.swift */; settings = {ASSET_TAGS = (); }; };
 		346628591BC1CA5000EB4E82 /* NSFileManger+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346628371BC1C9FA00EB4E82 /* NSFileManger+Helpers.swift */; settings = {ASSET_TAGS = (); }; };
 		3466285A1BC1CA5400EB4E82 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346628311BC1C9E600EB4E82 /* CoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				346628531BC1CA4200EB4E82 /* SBCoreDataStack-OSX.framework in Embed Frameworks */,
+				346628531BC1CA4200EB4E82 /* SBCoreDataStackOSX.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,10 +62,10 @@
 		346628321BC1C9E600EB4E82 /* NSManagedObjectContext+SaveHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+SaveHelpers.swift"; sourceTree = "<group>"; };
 		346628331BC1C9E600EB4E82 /* NSPersistentStoreCoordinator+SQLiteHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSPersistentStoreCoordinator+SQLiteHelpers.swift"; sourceTree = "<group>"; };
 		346628371BC1C9FA00EB4E82 /* NSFileManger+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManger+Helpers.swift"; sourceTree = "<group>"; };
-		3466283E1BC1CA2E00EB4E82 /* SBCoreDataStack-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SBCoreDataStack-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3466283E1BC1CA2E00EB4E82 /* SBCoreDataStackiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBCoreDataStackiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346628401BC1CA2E00EB4E82 /* SBCoreDataStack-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBCoreDataStack-iOS.h"; sourceTree = "<group>"; };
 		346628421BC1CA2E00EB4E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3466284B1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SBCoreDataStack-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3466284B1BC1CA4100EB4E82 /* SBCoreDataStackOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBCoreDataStackOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3466284D1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBCoreDataStack-OSX.h"; sourceTree = "<group>"; };
 		3466284F1BC1CA4100EB4E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				346628521BC1CA4200EB4E82 /* SBCoreDataStack-OSX.framework in Frameworks */,
+				346628521BC1CA4200EB4E82 /* SBCoreDataStackOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				346628211BC1C9B000EB4E82 /* SBCoreDataStack.app */,
-				3466283E1BC1CA2E00EB4E82 /* SBCoreDataStack-iOS.framework */,
-				3466284B1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.framework */,
+				3466283E1BC1CA2E00EB4E82 /* SBCoreDataStackiOS.framework */,
+				3466284B1BC1CA4100EB4E82 /* SBCoreDataStackOSX.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 			productReference = 346628211BC1C9B000EB4E82 /* SBCoreDataStack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3466283D1BC1CA2E00EB4E82 /* SBCoreDataStack-iOS */ = {
+		3466283D1BC1CA2E00EB4E82 /* SBCoreDataStackiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 346628431BC1CA2E00EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStack-iOS" */;
+			buildConfigurationList = 346628431BC1CA2E00EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStackiOS" */;
 			buildPhases = (
 				346628391BC1CA2E00EB4E82 /* Sources */,
 				3466283A1BC1CA2E00EB4E82 /* Frameworks */,
@@ -211,14 +211,14 @@
 			);
 			dependencies = (
 			);
-			name = "SBCoreDataStack-iOS";
+			name = SBCoreDataStackiOS;
 			productName = "SBCoreDataStack-iOS";
-			productReference = 3466283E1BC1CA2E00EB4E82 /* SBCoreDataStack-iOS.framework */;
+			productReference = 3466283E1BC1CA2E00EB4E82 /* SBCoreDataStackiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3466284A1BC1CA4100EB4E82 /* SBCoreDataStack-OSX */ = {
+		3466284A1BC1CA4100EB4E82 /* SBCoreDataStackOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 346628541BC1CA4200EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStack-OSX" */;
+			buildConfigurationList = 346628541BC1CA4200EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStackOSX" */;
 			buildPhases = (
 				346628461BC1CA4100EB4E82 /* Sources */,
 				346628471BC1CA4100EB4E82 /* Frameworks */,
@@ -229,9 +229,9 @@
 			);
 			dependencies = (
 			);
-			name = "SBCoreDataStack-OSX";
+			name = SBCoreDataStackOSX;
 			productName = "SBCoreDataStack-OSX";
-			productReference = 3466284B1BC1CA4100EB4E82 /* SBCoreDataStack-OSX.framework */;
+			productReference = 3466284B1BC1CA4100EB4E82 /* SBCoreDataStackOSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -269,8 +269,8 @@
 			projectRoot = "";
 			targets = (
 				346628201BC1C9B000EB4E82 /* SBCoreDataStack */,
-				3466283D1BC1CA2E00EB4E82 /* SBCoreDataStack-iOS */,
-				3466284A1BC1CA4100EB4E82 /* SBCoreDataStack-OSX */,
+				3466283D1BC1CA2E00EB4E82 /* SBCoreDataStackiOS */,
+				3466284A1BC1CA4100EB4E82 /* SBCoreDataStackOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +341,7 @@
 /* Begin PBXTargetDependency section */
 		346628511BC1CA4200EB4E82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3466284A1BC1CA4100EB4E82 /* SBCoreDataStack-OSX */;
+			target = 3466284A1BC1CA4100EB4E82 /* SBCoreDataStackOSX */;
 			targetProxy = 346628501BC1CA4200EB4E82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		346628431BC1CA2E00EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStack-iOS" */ = {
+		346628431BC1CA2E00EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStackiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				346628441BC1CA2E00EB4E82 /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		346628541BC1CA4200EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStack-OSX" */ = {
+		346628541BC1CA4200EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStackOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				346628551BC1CA4200EB4E82 /* Debug */,
