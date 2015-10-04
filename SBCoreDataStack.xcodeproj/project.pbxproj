@@ -245,6 +245,7 @@
 				TargetAttributes = {
 					346628201BC1C9B000EB4E82 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 736EHXL54B;
 					};
 					3466283D1BC1CA2E00EB4E82 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -441,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SBCoreDataStack/Info.plist;
@@ -454,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SBCoreDataStack/Info.plist;
@@ -571,6 +574,7 @@
 				346628301BC1C9B000EB4E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		346628431BC1CA2E00EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStack-iOS" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +583,7 @@
 				346628451BC1CA2E00EB4E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		346628541BC1CA4200EB4E82 /* Build configuration list for PBXNativeTarget "SBCoreDataStack-OSX" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +592,7 @@
 				346628561BC1CA4200EB4E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
