@@ -249,9 +249,11 @@
 					};
 					3466283D1BC1CA2E00EB4E82 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 736EHXL54B;
 					};
 					3466284A1BC1CA4100EB4E82 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 736EHXL54B;
 					};
 				};
 			};
@@ -469,6 +471,7 @@
 		346628441BC1CA2E00EB4E82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -492,6 +495,7 @@
 		346628451BC1CA2E00EB4E82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -516,6 +520,7 @@
 		346628551BC1CA4200EB4E82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -537,6 +542,7 @@
 		346628561BC1CA4200EB4E82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
